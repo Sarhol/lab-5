@@ -50,25 +50,39 @@ table {
 
 /* Start the Project 2 CSS */
 
-body { color:black;
+body { 
+    background-image: url(/gradient.jpg)
+    height:100%;
+    width:100%;
     
 }
 
 
-table { border-spacing: 1.0rem; 
+table { background-color: azure;
+    border-spacing: 1.0rem; 
+        float align-items: center;
          padding: 10px;
          position: fixed;
         font-family: 'helvetica', sans-serif;
         border-collapse: collapse;
         width: 95%;
         height: 400px;
-        border-spacing: 5px;
+        border-spacing: 10px;
         margin: 10px 10px 10px 10px;
-
         }
 
+pics { background-color: antiquewhite;
+    padding 5px;
+}
 
+mass{
+    
+}
 
+tr:hover 
+ {
+  background-color: darkgray;
+ }
 
 
 
