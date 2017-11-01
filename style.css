@@ -52,13 +52,14 @@ table {
 
 body { 
     background-image: url(/gradient.jpg);
+    background-color: gainsboro;
     height:100%;
     width:100%;
     
 }
 
 
-table { background-color: azure;
+table { 
     border-spacing: 1.0rem; 
         float align-items: center;
          padding: 10px;
@@ -69,21 +70,58 @@ table { background-color: azure;
         height: 400px;
         border-spacing: 10px;
         margin: 10px 10px 10px 10px;
+    background-color: gainsboro;
         }
-
-pics { background-color: antiquewhite;
-    padding 5px;
+tr.hover{
+    background-color: cadetblue;
 }
 
-mass{
-    
+#pics {
+    padding 10px;
 }
-
-tr:hover 
- {
-  background-color: darkgray;
- }
-
+#mass
+{
+    font-size: 20px;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+#diameter
+{ font-size: 20px;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+#density
+{  font-size: 20px;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+#velocity
+{  font-size: 20px;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#distance
+{  font-size: 20px;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#rotation
+{  font-size: 20px;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#revolution
+{  font-size: 20px;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
 
 
 
